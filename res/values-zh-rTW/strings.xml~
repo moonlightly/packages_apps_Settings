@@ -787,7 +787,7 @@
     <string name="fcc_equipment_id" msgid="149114368246356737">"設備 ID"</string>
     <string name="baseband_version" msgid="1848990160763524801">"基帶版本"</string>
     <string name="kernel_version" msgid="9192574954196167602">"內核版本"</string>
-    <string name="build_number" msgid="3075795840572241758">"moonlight的博客地址"</string>
+    <string name="build_number" msgid="3075795840572241758">"版本號"</string>
     <string name="selinux_status" msgid="6212165375172061672">"SELinux 狀態"</string>
     <string name="device_info_not_available" msgid="8062521887156825182">"不可用"</string>
     <string name="device_status_activity_title" msgid="1411201799384697904">"狀態信息"</string>
