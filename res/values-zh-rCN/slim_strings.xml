@@ -22,5 +22,11 @@
     <string name="nfc_polling_mode_screen_locked">亮屏, 上锁</string>
     <string name="nfc_polling_mode_screen_unlocked">亮屏, 解锁 (默认)</string>
     <string name="summary_pref_menu_location">您想让菜单位置出现在何处?</string>
+    
+    <!-- Recents Clear All On Right -->
+    <string name="clear_all_on_right">近期任务全部清除按钮</string>
+    <string name="clear_all_on_right_summary">设置屏幕右侧</string>
+    
+    <string name="never_show">不显示</string>
 
 </resources>
