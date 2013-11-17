@@ -52,6 +52,20 @@
                 android:entryValues="@array/entryvalues_font_size"
                 android:dialogTitle="@string/dialog_title_font_size" />
 
+
+    <PreferenceCategory
+        android:key="category_animation_options"
+        android:title="@string/display_category_animation_options_title" >
+
+        <ListPreference
+            android:key="system_power_crt_mode"
+            android:dialogTitle="@string/system_power_crt_mode_dialog_title"
+            android:title="@string/system_power_crt_mode_title"
+            android:entries="@array/entries_system_power_crt_mode"
+            android:entryValues="@array/values_system_power_crt_mode" />
+
+    </PreferenceCategory>
+
         <PreferenceCategory
             android:key="category_light_options"
             android:title="@string/display_category_light_options_title" >
@@ -65,6 +79,17 @@
                 android:key="notification_pulse"
                 android:title="@string/notification_pulse_title"
                 android:fragment="com.android.settings.slim.notificationlight.NotificationLightSettings" />
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:key="category_wakeup_options"
+            android:title="@string/display_category_wakeup_options_title" >
+
+            <CheckBoxPreference
+                android:key="pref_volume_wake"
+                android:title="@string/pref_volume_wake_title"
+                android:summary="@string/pref_volume_wake_summary" />
 
         </PreferenceCategory>
 
